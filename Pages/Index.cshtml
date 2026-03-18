@@ -1,0 +1,30 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Accueil - Intranet";
+}
+
+<h1 class="text-3xl font-bold mb-6">Bienvenue sur l'Intranet de gestion des salariés</h1>
+
+<p class="mb-8 text-gray-700">
+    Utilisez les sections ci-dessous pour gérer les salariés, les documents, les bulletins de paie, les congés, et plus encore.
+</p>
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+    <a href="/Salaries" class="block p-6 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
+        <h2 class="text-xl font-semibold mb-2">Salariés</h2>
+        <p>Consultez et gérez les salariés.</p>
+    </a>
+    <a href="/Documents" class="block p-6 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 transition">
+        <h2 class="text-xl font-semibold mb-2">Documents</h2>
+        <p>Gérez les documents des salariés.</p>
+    </a>
+    <a href="/BulletinsPaie" class="block p-6 bg-purple-600 text-white rounded-lg shadow hover:bg-purple-700 transition">
+        <h2 class="text-xl font-semibold mb-2">Bulletins de Paie</h2>
+        <p>Visualisez et gérez les paies.</p>
+    </a>
+    <a href="/Conges" class="block p-6 bg-orange-600 text-white rounded-lg shadow hover:bg-orange-700 transition">
+        <h2 class="text-xl font-semibold mb-2">Congés</h2>
+        <p>Suivez et validez les demandes de congés.</p>
+    </a>
+</div>

@@ -1,0 +1,19 @@
+# SNGC - Intranet RH
+
+Application web ASP.NET Core pour la gestion interne des employés.
+
+## Fonctionnalités
+- Gestion des salariés
+- Contrats de travail
+- Fiches de paie
+- Suivi des absences
+
+## Technologies
+- C# / ASP.NET Core
+- SQL Server
+- Razor Pages
+
+## Installation
+1. Cloner le repo
+2. Configurer la base de données
+3. Lancer le projet
